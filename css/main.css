@@ -1,55 +1,62 @@
+/* Global styling class */
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: Verdana, sans-serif;
-    color: #666666;
+    font-family: verdana, sans-serif;
+    color: #666;
 }
 
-h1{
-    padding: 17px 35px 0px 35px;
+/* Heading tags class*/
+h1 {
+    padding: 17px 35px 0 35px;
     font-size: 340%;
 }
 
-h2{
-    margin: -17px 0px 0px 0px;
-    color: #F07C17;
+h2 {
+    margin: -17px 0 0 0;
+    color: #f07c17;
     font-weight: bolder;
     font-size: 24px;
 }
 
-div{
-    margin: 5px 0px 10px 0px;
+/* HTML Section tag class */
+div {
+    margin: 5px 0 10px 0;
 }
 
-.li1{
+/* list Items tags class*/
+.li1 {
     padding-top: 35px;
     font-size: 16px;
 }
 
-.li2, .li3{
+.li2,
+.li3 {
     padding-top: 10px;
     font-size: 16px;
 }
 
-.p1{
+/* Paragraph tags */
+.p1 {
     padding-top: 20px;
     line-height: 32px;
     font-size: 16px;
 
 }
 
-.p2, .p3{
-    padding-top: 0px;
+.p2,
+.p3 {
+    padding-top: 0;
     line-height: 32px;
     font-size: 16px;
 
 }
 
+/* Special feature tags */
 .features {
     margin-top: 20px;
-    /*margin-bottom: 45px;*/
     padding: 40px 10px 15px 30px;
-    border: 1px solid #cccccc;
+    border: 1px solid #ccc;
 }
